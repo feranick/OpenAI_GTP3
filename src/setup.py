@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='openai_gpt3',
+    packages=find_packages(),
+    install_requires=['openai'],
+    entry_points={'console_scripts' : ['OpenAI_GPT3=OpenAI_GPT3:OpenAI_GPT3']},
+    py_modules=['OpenAI_GPT3'],
+    version='20221205b',
+    description='Front-end for OpenAI GPT-3',
+    author='Nicola Ferralis',
+    author_email='feranck@hotmail.com',
+    url='https://github.com/feranick/OpenAI_GTP3',
+    download_url='https://github.com/feranick/OpenAI_GTP3',
+    keywords=['Machine learning', 'AI', 'OpenAI', 'GTP3'],
+    license='GPLv2',
+    platforms='any',
+    classifiers=[
+     'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
+     'Development Status :: 5 - Production/Stable',
+     'Programming Language :: Python',
+     'Programming Language :: Python :: 3',
+     'Programming Language :: Python :: 3.6',
+     'Programming Language :: Python :: 3.7',
+     'Programming Language :: Python :: 3.8',
+     'Programming Language :: Python :: 3.9',
+     'Programming Language :: Python :: 3.10',
+     'Intended Audience :: Science/Research',
+     ],
+)
